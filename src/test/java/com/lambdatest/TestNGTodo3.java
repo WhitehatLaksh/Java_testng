@@ -23,6 +23,7 @@ public class TestNGTodo3 {
         String username = System.getenv("LT_USERNAME");
         String authkey = System.getenv("LT_ACCESS_KEY");
 
+
         String hub = "@hub.lambdatest.com/wd/hub";
 
         DesiredCapabilities caps = new DesiredCapabilities();
