@@ -53,7 +53,7 @@ public class TestNGTodo3 {
 
     @Test
     public void basicTest() throws InterruptedException {
-        driver.get(" https://demo-qa.noonpayments.io/");
+        driver.get(" ");
         Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/div[2]/div[2]/div[3]/div/div[1]/div/div/div[2]/div[2]/a")).click(); // add to cart
         Thread.sleep(1000);
